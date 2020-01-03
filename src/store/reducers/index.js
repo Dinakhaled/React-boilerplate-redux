@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux'
 import ReducerExample from './ReducerExample';
+import locale from './Lang';
 
 export default combineReducers({
-    ReducerExample,
+    locale,
+    ReducerExample
 })

@@ -5,6 +5,7 @@ class Home extends Component {
     super(props);
     this.state = {  }
   }
+
   render() { 
     return ( 
       <h1>HOME PAGE</h1>
