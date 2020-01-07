@@ -4,7 +4,7 @@ import history from '../routes/History';
 import Routes from '../routes/Routes';
 import { connect } from 'react-redux';
 import { IntlProvider } from 'react-intl';
-import messages from '../Local/messages';
+import messages from '../assets/Local/messages';
 import Navbar from "../containers/Navbar/Navbar";
 // ========== General styles ==========
 import './App.scss';
