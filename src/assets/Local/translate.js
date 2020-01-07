@@ -1,9 +1,9 @@
 import en from './en';
 import ar from './ar';
 
-const messages = {
+const translate = {
   ...ar, 
   ...en
 }
 
-export default messages;
+export default translate;

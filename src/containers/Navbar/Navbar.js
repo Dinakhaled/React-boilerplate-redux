@@ -24,14 +24,14 @@ class Navbar extends Component {
   }
 
   render() { 
-    const { messages } = this.props.intl;
+    const { translate } = this.props.intl;
     const { lang } = this.props;
     console.log(lang);
     
     return ( 
       <Container>
-        {this.renderLangSwitcher(messages.langBtn, lang)}
-        <h1>{messages.home}</h1>
+        {this.renderLangSwitcher(translate.langBtn, lang)}
+        <h1>{translate.home}</h1>
       </Container>
     );
   }

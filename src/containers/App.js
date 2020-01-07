@@ -4,7 +4,7 @@ import history from '../routes/History';
 import Routes from '../routes/Routes';
 import { connect } from 'react-redux';
 import { IntlProvider } from 'react-intl';
-import messages from '../Local/messages';
+import translate from '../Local/translate';
 import Navbar from "../containers/Navbar/Navbar";
 // ========== General styles ==========
 import './App.scss';
@@ -18,7 +18,7 @@ class App extends Component {
     return (
       <IntlProvider
         locale={lang}
-        messages={messages[lang]}>
+        translate={translate[lang]}>
         <div className={lang === 'ar' ? 'rtl' : 'ltr'} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
           <Router history={history}>
             <Navbar />
