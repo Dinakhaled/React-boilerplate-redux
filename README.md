@@ -19,11 +19,13 @@
   <li>Components will be functional and to deal with state here try to use React hooks (useState, useEffect, ...etc).</li>
   <li>Each component folder will contain javascript file & style file (css || sass || ...etc).</li>
 </ul>
+<hr>
 <h4>🗃Containers</h4>
 <ul>
   <li>These folders will represent your pages or containers which should contain your components.</li>
   <li>Containers will be class components.</li>
 </ul>
+<hr>
 <h4>🗃Network</h4>
 <ul>
   <li>That contain two folders 
@@ -33,6 +35,7 @@
     </ol>
   </li>
 </ul>
+<hr>
 <h4>🗃Routes</h4>
 <ul>
   <li>Wrap your app routes there.</li>
