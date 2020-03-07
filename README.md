@@ -40,5 +40,31 @@
 <hr>
 <h4>🗃Routes</h4>
 <ul>
-  <li>Wrap your app routes there.</li>
+  <li>Wrap your app routes in Routes.js file.</li>
+  <li>You will find History.js file that observes your journey of paths inside the app.</li>
 </ul>
+<hr>
+<h4>🗃SCSS</h4>
+<ul>
+  <li>Here you could put your general styles (general || variables || mixins ...etc).</li>
+</ul>
+<hr>
+<h4>🗃Store</h4>
+<ul>
+  <li><strong>Actions: </strong>Here you will put your actions to set any data to Redux store.</li>
+  <li><strong>Reducers: </strong>Here you will put your Reducers to define how your data will be display in Redux store.</li>
+  <li><strong>Sagas: </strong>Here you will create your saga's functions (generator functions) to call your APIS.</li>
+  <li><strong>Types: </strong>Here you will define your types to use it inside the actions and reducers.</li>
+  <li><strong>index: </strong>This file will wrap your Redux store main configurations (applyMiddleware || compose ...etc).</li>
+</ul>
+<hr>
+<h4>🗃Utils</h4>
+<ul>
+  <li>Here you could put your constants like (base image URL) and your lazy-loaded components imports or any other helpers files.</li>
+</ul>
+<hr>
+<h4>🗃index.js</h4>
+<ul>
+  <li>This file is bootstrap your application.</li>
+</ul>
+<hr>
