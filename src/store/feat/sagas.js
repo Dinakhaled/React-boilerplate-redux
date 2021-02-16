@@ -1,6 +1,6 @@
 import { put, call } from "redux-saga/effects";
 import API from "../../network/apis";
-import { action } from "../actions";
+import { action } from "./actions";
 
 export function* fetchSaga() {
   try {
