@@ -1,7 +1,12 @@
-import React from 'react';
+import React from "react";
+import { Button as MButton } from "@material-ui/core";
 
-export const Button = () => {
+const Button = () => {
   return (
-    <button>Button</button>
-  )
-}
+    <MButton variant="contained" color="primary">
+      Primary
+    </MButton>
+  );
+};
+
+export default Button;

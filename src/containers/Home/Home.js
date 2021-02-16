@@ -1,7 +1,8 @@
 import React from "react";
+import Button from "../../components/Button/Button";
 
 const Home = () => {
-  return <h1>HOME PAGE</h1>;
+  return <Button />;
 };
 
 export default Home;
